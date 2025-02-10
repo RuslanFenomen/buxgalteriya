@@ -12,3 +12,13 @@ menuLink.forEach(link => {
         menu.classList.remove('menu--active')
     })
 })
+
+
+// price__swiper
+const swiper = new Swiper(".price__swiper", {
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
