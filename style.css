@@ -98,7 +98,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 110px;
+    margin-top: 120px;
 }
 
 .btn {
@@ -369,6 +369,32 @@ ul {
     text-align: center;
 }
 
+/* about */
+.about__inner {
+    background-color: var(--light);
+    padding: 10px 10px 60px;
+    border-radius: 20px;
+}
+
+.about__img {
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    height: calc((100vw - 40px) / 4 * 3);
+    object-fit: cover;
+    object-position: center;
+}
+
+.about__title-before {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 10px;
+}
+
+.about__title {
+    margin-bottom: 15px;
+}
+
 /* services */
 .services__inner {
     background-color: var(--light);
@@ -495,6 +521,96 @@ ul {
     text-align: center;
 }
 
+.sequence__link  {
+    font-size: 18px;
+}
+
+/* price */
+.price__inner {
+    background-color: var(--light);
+}
+
+.price__swiper {
+    max-width: 400px;
+}
+
+.price__slide {
+    background: var(--light);
+    border: 2px solid var(--bg);
+    border-radius: 20px;
+    position: relative;
+    padding-bottom: 30px;
+    margin: 0 25px;
+}
+
+.price__header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.price__box {
+    border: 2px solid var(--bg);
+    background-color: var(--bg-hover);
+    border-radius: 0 20px 20px 0;
+    margin-left: -2px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 70%;
+    min-width: max-content;
+}
+
+.price__list {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.price__item::before {
+    content: "✔";
+    color: var(--bg);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.price__btn {
+    font-size: 16px;
+}
+
+.price__swiper .swiper-button-prev,
+.price__swiper .swiper-button-next {
+    width: 45px;
+    height: 45px;
+    background: var(--light);
+    border-radius: 10px;
+    color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px var(--dark);
+    font-size: 20px;
+}
+
+.price__swiper .swiper-button-prev::after,
+.price__swiper .swiper-button-next::after {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.price__swiper .swiper-button-prev {
+    left: 5px;
+}
+
+.price__swiper .swiper-button-next {
+    right: 5px;
+}
+
+/* footer */
 .footer {
-    padding: 5px;
+    padding: 5px 0;
 }
