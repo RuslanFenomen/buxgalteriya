@@ -17,7 +17,13 @@
             <div class="header__inner">
                 <div class="logo">
                     <a href="index.html" class="logo__link">
-                        <img src="img/svg/logo.svg" alt="Логотип" class="logo__img">
+                        <svg class="logo__img" xmlns="http://www.w3.org/2000/svg" width="55" height="70"
+                            viewBox="0 0 55 70" fill="none">
+                            <path d="M49.6797 50.8389L55 70L0 37.5962L49.6797 50.8389Z" fill="#9D0208" />
+                            <path d="M4.03185 32.4169L35.5637 0L40.6926 18.4718L35.3413 13.2611L4.03185 32.4169Z"
+                                fill="#9D0208" />
+                            <path d="M3.03084 35.2343L42.8437 26.219L46.0971 37.9362L3.03084 35.2343Z" fill="#9D0208" />
+                        </svg>
                     </a>
                 </div>
                 <div class="header__phone">
@@ -31,22 +37,22 @@
                     </button>
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="#" class="menu__link">
+                            <a href="index.html" class="menu__link">
                                 Главная
                             </a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">
+                            <a href="#services" class="menu__link">
                                 Наши услуги
                             </a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">
+                            <a href="#price" class="menu__link">
                                 Прайс
                             </a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">
+                            <a href="#footer" class="menu__link">
                                 Контакты
                             </a>
                         </li>
@@ -67,7 +73,7 @@
                     <h2 class="intro__subtitle">
                         Ведение учёта, отчётность, налоги, зарплата. Гарантия точности и сроков.
                     </h2>
-                    <a class="intro__link btn" href="#">
+                    <a class="intro__link btn open-popup" href="#">
                         Оставить заявку
                     </a>
                     <p class="intro__link-descr">
@@ -76,7 +82,7 @@
                 </div>
             </div>
         </section>
-
+        <div class="section__id" id="about"></div>
         <section class="about">
             <div class="container">
                 <div class="about__inner">
@@ -93,7 +99,7 @@
                 </div>
             </div>
         </section>
-
+        <div class="section__id" id="services"></div>
         <section class="services">
             <div class="container">
                 <div class="services__inner section">
@@ -147,17 +153,85 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="portfolio">
+        <div class="section__id" id="portfolio"></div>
+        <section class="portfolio">
             <div class="container">
                 <div class="portfolio__inner section">
                     <h2 class="portfolio__title title">
                         Наши кейсы
                     </h2>
+                    <ul class="portfolio__list">
+                        <li class="portfolio__item">
+                            <img src="img/portfolio-img-1.jpg" alt="" class="portfolio__item-img">
+                            <div class="portfolio__item-content">
+                                <h3 class="portfolio__item-title">
+                                    Оптимизация налогов и сокращение расходов
+                                </h3>
+                                <a href="#" class="portfolio__item-link arrow">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio__item">
+                            <img src="img/portfolio-img-2.jpg" alt="" class="portfolio__item-img">
+                            <div class="portfolio__item-content">
+                                <h3 class="portfolio__item-title">
+                                    Выход из сложной бухгалтерской ситуации
+                                </h3>
+                                <a href="#" class="portfolio__item-link arrow">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio__item">
+                            <img src="img/portfolio-img-3.jpg" alt="" class="portfolio__item-img">
+                            <div class="portfolio__item-content">
+                                <h3 class="portfolio__item-title">
+                                    Полное бухгалтерское сопровождение
+                                </h3>
+                                <a href="#" class="portfolio__item-link arrow">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio__item">
+                            <img src="img/portfolio-img-4.jpg" alt="" class="portfolio__item-img">
+                            <div class="portfolio__item-content">
+                                <h3 class="portfolio__item-title">
+                                    Полное бухгалтерское сопровождение
+                                </h3>
+                                <a href="#" class="portfolio__item-link arrow">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio__item">
+                            <img src="img/portfolio-img-5.jpg" alt="" class="portfolio__item-img">
+                            <div class="portfolio__item-content">
+                                <h3 class="portfolio__item-title">
+                                    Оптимизация зарплатных налогов для бизнеса
+                                </h3>
+                                <a href="#" class="portfolio__item-link arrow">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio__item">
+                            <img src="img/portfolio-img-6.jpg" alt="" class="portfolio__item-img">
+                            <div class="portfolio__item-content">
+                                <h3 class="portfolio__item-title">
+                                    Успешное прохождение налоговой проверки
+                                </h3>
+                                <a href="#" class="portfolio__item-link arrow">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section> -->
-
+        </section>
+        <div class="section__id" id="sequence"></div>
         <section class="sequence">
             <div class="container">
                 <div class="sequence__inner section">
@@ -221,7 +295,7 @@
                 </div>
             </div>
         </section>
-
+        <div class="section__id" id="price"></div>
         <section class="price">
             <div class="container">
                 <div class="price__inner section">
@@ -240,7 +314,7 @@
                                         <li class="price__item">Что-то там...</li>
                                         <li class="price__item">Что-то там...</li>
                                     </ul>
-                                    <a href="#" class="price__btn btn">Выбрать этот тариф</a>
+                                    <a href="#" class="price__btn btn open-popup">Выбрать этот тариф</a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -255,7 +329,7 @@
                                         <li class="price__item">Что-то там...</li>
                                         <li class="price__item">Что-то там...</li>
                                     </ul>
-                                    <a href="#" class="price__btn btn">Выбрать этот тариф</a>
+                                    <a href="#" class="price__btn btn open-popup">Выбрать этот тариф</a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -272,7 +346,7 @@
                                         <li class="price__item">Что-то там...</li>
                                         <li class="price__item">Что-то там...</li>
                                     </ul>
-                                    <a href="#" class="price__btn btn">Выбрать этот тариф</a>
+                                    <a href="#" class="price__btn btn open-popup">Выбрать этот тариф</a>
                                 </div>
                             </div>
                         </div>
@@ -283,13 +357,36 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__inner">
+                <div class="footer__top">
+                    <div class="logo">
+                        <a href="index.html" class="logo__link">
+                            <svg class="logo__img" xmlns="http://www.w3.org/2000/svg" width="55" height="70"
+                                viewBox="0 0 55 70" fill="none">
+                                <path d="M49.6797 50.8389L55 70L0 37.5962L49.6797 50.8389Z" fill="#9D0208" />
+                                <path d="M4.03185 32.4169L35.5637 0L40.6926 18.4718L35.3413 13.2611L4.03185 32.4169Z"
+                                    fill="#9D0208" />
+                                <path d="M3.03084 35.2343L42.8437 26.219L46.0971 37.9362L3.03084 35.2343Z"
+                                    fill="#9D0208" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom">
 
+                </div>
             </div>
         </div>
     </footer>
+
+    <div class="popup__bg">
+        <form class="popup">
+            Тут будет форма обратной связи
+            <div class="close-popup"></div>
+        </form>
+    </div>
 
     <script src="libs/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
