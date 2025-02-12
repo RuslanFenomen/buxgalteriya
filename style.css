@@ -433,6 +433,7 @@ ul {
     display: block;
     width: 100%;
     height: calc((100vw - 40px) / 4 * 3);
+    max-height: 300px;
     object-fit: cover;
     object-position: center;
 }
