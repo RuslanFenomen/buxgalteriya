@@ -48,3 +48,23 @@ document.addEventListener('click', (e) => {
         popup.classList.remove('active');
     }
 });
+
+// faq
+const faqBtns = document.querySelectorAll('.faq__item-btn')
+const faqItems = document.querySelectorAll('.faq__item')
+
+faqBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const item = btn.parentElement
+
+        if (item.classList.contains('faq__item--active')) {
+            item.classList.remove('faq__item--active')
+        } else {
+            faqItems.forEach(el => {
+                el.classList.remove('faq__item--active')
+            });
+
+            item.classList.add('faq__item--active')
+        }
+    });
+});
